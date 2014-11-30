@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SecondViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <MyDelegate>
+
+@property (weak, nonatomic) IBOutlet UITextField *tf;
 
 
 @end
